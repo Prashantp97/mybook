@@ -103,7 +103,7 @@ function About() {
               <div className="card mt-4">
                 <img className="card-img-top" src="images/harry.png" alt="" />
                 <div className="card-body">
-                  <h4 className="card-title text-secondary">Harry Potter</h4>
+                  <h4 className="card-title text-secondary">gita</h4>
                   <p className="card-text text-secondary">
                     Harry Potter, fictional character, a boy wizard created by
                     British author J.K. Rowling. His coming-of-age exploits were
