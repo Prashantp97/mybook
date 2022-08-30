@@ -10,11 +10,7 @@ function ContactMe() {
       <section id="about">
         <div className="about container">
           <div className="col-left">
-            <img
-              src="images/IMG_20220110_110151.jpg"
-              alt="img"
-              className="card-img-top"
-            />
+            <img className="card-img-top" src="images/51a7+jM--FL.jpg" alt="" />
           </div>
           <div className="col-right">
             <h1 className="section-title">About me</h1>
