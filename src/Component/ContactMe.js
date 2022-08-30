@@ -6,8 +6,11 @@ import Contactinfo from "./Contactinfo";
 import resume from "../Component/assets/resume.png";
 import digi from "../Component/assets/digimart.png";
 import book from "../Component/assets/risingbook.png";
+import { useNavigate } from "react-router-dom";
 
 function ContactMe() {
+  const navigate = useNavigate();
+
   return (
     <>
       <Bnavbar />
@@ -19,8 +22,9 @@ function ContactMe() {
           </div>
           <div className="col-right">
             <h1 className="section-title">About me</h1>
-            <br />
 
+            <span id="heading">Why Rising Information..?</span>
+            <br />
             <br />
             <p>
               These days, nearly every person carries a smart device like
@@ -33,10 +37,12 @@ function ContactMe() {
               a complete set of benefits..
               <br />
               <br />
-              <span id="span">Languages Use :</span> HTML , CSS , JavaScript
+              <span className="span">Languages Use :</span> HTML , CSS ,
+              JavaScript ( React js )
               <br />
               <br />
-              library used : React , Bootstrap
+              <span className="span">library used :</span> React js, Bootstrap,
+              React-Router
             </p>
           </div>
         </div>
@@ -112,15 +118,23 @@ function ContactMe() {
                     Book Information
                   </h4>
                   <p className="card-text text-secondary">
-                    Harry Potter, fictional character, a boy wizard created by
-                    British author J.K. Rowling. His coming-of-age exploits were
-                    the subject of seven enormously popular novels (1997–2007),
-                    which were adapted into eight films (2001–11); a play and a
-                    book of its script appeared in 2016.
+                    By fetching Google books API this website show you the few
+                    information about the book you want to search including Book
+                    images , Author name, Book Price, Publish Date.
+                    <br />
+                    <span>Features :</span> Search Book, About Me section
+                    including my all project , Feedback Form , React Router use
+                    for Navigation, Bootstrap for Styling
+                    <br />
+                    <span>Tech Stack :</span> HTML, CSS, JavaScript (React js)
                   </p>
                 </div>
                 <div className="card-footer">
-                  <a href="#" className="btn btn-primary">
+                  <a
+                    href="https://prashantp97.github.io/mybook/"
+                    target="_blank"
+                    className="btn btn-primary"
+                  >
                     View Website
                   </a>
                 </div>

@@ -81,7 +81,12 @@ z-index: -1;
 .card-text span {
 font-weight: bold;
 }
-#span{
+.span{
     font-weight: bold;
     color: rgb(117, 117, 117);
+}
+#heading{
+    font-weight: bold;
+    color: rgb(117, 117, 117);
+    font-size: 30px;
 }

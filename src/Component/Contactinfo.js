@@ -22,6 +22,8 @@ function Contactinfo() {
               <div class="contact-info">
                 <h1>Phone</h1>
                 <h2>+91-9403130550</h2>
+
+                <h2>+91-8888984316</h2>
               </div>
             </div>
             <div class="contact-item">
