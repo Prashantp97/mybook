@@ -1,5 +1,10 @@
 import React from "react";
 import img from "./APJ.jpg";
+import img2 from "../Component/assets/51a7+jM--FL.jpg";
+import gita from "../Component/assets/gita.jpg";
+import chetan from "../Component/assets/chetan_bhagat_031.jpg";
+import tagore from "../Component/assets/ravindranath tagor.png";
+import roy from "../Component/assets/aroy.jpg";
 
 import { useNavigate } from "react-router-dom";
 
@@ -72,11 +77,7 @@ function About() {
             </div>
             <div className="col-sm-4 mb-5">
               <div className="card mt-4">
-                <img
-                  className="card-img-top"
-                  src="images/51a7+jM--FL.jpg"
-                  alt=""
-                />
+                <img className="card-img-top" src={img2} alt="" />
                 <div className="card-body">
                   <h4 className="card-title text-secondary">Mahabharata</h4>
                   <p className="card-text text-secondary">
@@ -101,15 +102,16 @@ function About() {
             </div>
             <div className="col-sm-4 mb-5">
               <div className="card mt-4">
-                <img className="card-img-top" src="images/harry.png" alt="" />
+                <img className="card-img-top" src={gita} alt="" />
                 <div className="card-body">
-                  <h4 className="card-title text-secondary">gita</h4>
+                  <h4 className="card-title text-secondary">Bhagavadgita</h4>
                   <p className="card-text text-secondary">
-                    Harry Potter, fictional character, a boy wizard created by
-                    British author J.K. Rowling. His coming-of-age exploits were
-                    the subject of seven enormously popular novels (1997–2007),
-                    which were adapted into eight films (2001–11); a play and a
-                    book of its script appeared in 2016.
+                    The Bhagavadgita is an episode recorded in the Mahabharata,
+                    a Sanskrit epic poem of ancient India. It is an influential
+                    religious text in Hinduism that takes the form of a dialogue
+                    between Prince Arjuna and Krishna, an avatar of the Hindu
+                    deity Vishnu. It was likely composed in the 1st or 2nd
+                    century CE. It is commonly referred to as the Gita
                   </p>
                 </div>
                 <div className="card-footer">
@@ -137,7 +139,7 @@ function About() {
               <div className="testimonial mb-5">
                 <div className="avatar mx-auto">
                   <img
-                    src="images/chetan_bhagat_031.jpg"
+                    src={chetan}
                     className="rounded-circle z-depth-1 img-fluid"
                   />
                 </div>
@@ -161,7 +163,7 @@ function About() {
               <div className="testimonial mb-5">
                 <div className="avatar mx-auto">
                   <img
-                    src="images/ravindranath tagor.png"
+                    src={tagore}
                     className="rounded-circle z-depth-1 img-fluid"
                   />
                 </div>
@@ -184,7 +186,7 @@ function About() {
               <div className="testimonial mb-5">
                 <div className="avatar mx-auto">
                   <img
-                    src="images/aroy.jpg"
+                    src={roy}
                     className="rounded-circle z-depth-1 img-fluid"
                   />
                 </div>

@@ -1,6 +1,9 @@
 import React from "react";
 import "./Contactinfo.css";
 import Footer from "./Footer";
+import plogo from "../Component/assets/icons8-phone-50.png";
+import elogo from "../Component/assets/icons8-mail-50.png";
+import alogo from "../Component/assets/icons8-address-50.png";
 function Contactinfo() {
   return (
     <>
@@ -14,7 +17,7 @@ function Contactinfo() {
           <div class="contact-items" id="contact-id">
             <div class="contact-item">
               <div class="icon">
-                <img src="images/icons8-phone-50.png" />
+                <img src={plogo} />
               </div>
               <div class="contact-info">
                 <h1>Phone</h1>
@@ -23,7 +26,7 @@ function Contactinfo() {
             </div>
             <div class="contact-item">
               <div class="icon">
-                <img src="images/icons8-mail-50.png" />
+                <img src={elogo} />
               </div>
               <div class="contact-info">
                 <h1>Email</h1>
@@ -32,7 +35,7 @@ function Contactinfo() {
             </div>
             <div class="contact-item">
               <div class="icon">
-                <img src="images/icons8-address-50.png" />
+                <img src={alogo} />
               </div>
               <div class="contact-info">
                 <h1>Address</h1>

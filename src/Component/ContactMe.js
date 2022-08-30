@@ -1,7 +1,12 @@
 import React from "react";
 import "./Contact.css";
 import Bnavbar from "./Bnavbar";
+import profil from "../Component/assets/IMG_20220110_110151.jpg";
 import Contactinfo from "./Contactinfo";
+import resume from "../Component/assets/resume.png";
+import digi from "../Component/assets/digimart.png";
+import book from "../Component/assets/risingbook.png";
+
 function ContactMe() {
   return (
     <>
@@ -10,7 +15,7 @@ function ContactMe() {
       <section id="about">
         <div className="about container">
           <div className="col-left">
-            <img className="card-img-top" src="images/51a7+jM--FL.jpg" alt="" />
+            <img className="card-img-top" src={profil} alt="" />
           </div>
           <div className="col-right">
             <h1 className="section-title">About me</h1>
@@ -46,7 +51,7 @@ function ContactMe() {
           <div className="row">
             <div className="col-sm-4 mb-5">
               <div className="card mt-4">
-                <img className="card-img-top" src="images/resume.png" alt="" />
+                <img className="card-img-top" src={resume} alt="" />
                 <div className="card-body">
                   <h4 className="card-title text-secondary">My Resume</h4>
                   <p className="card-text text-secondary">
@@ -73,11 +78,7 @@ function ContactMe() {
             </div>
             <div className="col-sm-4 mb-5">
               <div className="card mt-4">
-                <img
-                  className="card-img-top"
-                  src="images/digimart.png"
-                  alt=""
-                />
+                <img className="card-img-top" src={digi} alt="" />
                 <div className="card-body">
                   <h4 className="card-title text-secondary">
                     E-Commerce Website
@@ -105,11 +106,7 @@ function ContactMe() {
             </div>
             <div className="col-sm-4 mb-5">
               <div className="card mt-4">
-                <img
-                  className="card-img-top"
-                  src="images/risingbook.png"
-                  alt=""
-                />
+                <img className="card-img-top" src={book} alt="" />
                 <div className="card-body">
                   <h4 className="card-title text-secondary">
                     Book Information
