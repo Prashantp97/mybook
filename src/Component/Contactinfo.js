@@ -9,37 +9,37 @@ function Contactinfo() {
     <>
       <section id="contact">
         <div>
-          <h1 class="section-title">
+          <h1 className="section-title">
             Contact <span>info</span>
           </h1>
         </div>
-        <div class="contact container">
-          <div class="contact-items" id="contact-id">
-            <div class="contact-item">
-              <div class="icon">
-                <img src={plogo} />
+        <div className="contact container">
+          <div className="contact-items" id="contact-id">
+            <div className="contact-item">
+              <div className="icon">
+                <img src={plogo} style={{ height: "20px" }} />
               </div>
-              <div class="contact-info">
+              <div className="contact-info">
                 <h1>Phone</h1>
                 <h2>+91-9403130550</h2>
 
                 <h2>+91-8888984316</h2>
               </div>
             </div>
-            <div class="contact-item">
-              <div class="icon">
+            <div className="contact-item">
+              <div className="icon">
                 <img src={elogo} />
               </div>
-              <div class="contact-info">
+              <div className="contact-info">
                 <h1>Email</h1>
                 <h2>prashantpatil8182@gmail.com</h2>
               </div>
             </div>
-            <div class="contact-item">
-              <div class="icon">
+            <div className="contact-item">
+              <div className="icon">
                 <img src={alogo} />
               </div>
-              <div class="contact-info">
+              <div className="contact-info">
                 <h1>Address</h1>
                 <h2>81 Daulat Nagar Deopur Dhule,Mahasashtra</h2>
               </div>

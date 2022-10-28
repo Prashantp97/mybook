@@ -2,11 +2,11 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <section class="bg-dark">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <h6 class="text-white text-center mb-3 mt-3">
+      <section className="bg-dark">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <h6 className="text-white text-center mb-3 mt-3">
                 Copyright @ Prashant Patil Rights Reserved
               </h6>
             </div>

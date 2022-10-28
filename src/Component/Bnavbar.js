@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-
+// import { Nav, NavDropdown, Container, Navbar } from "react-bootstrap";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
@@ -28,21 +28,6 @@ function Bnavbar() {
               <Nav.Link as={Link} to={"/feedback"}>
                 Feedback
               </Nav.Link>
-              <NavDropdown title="Genres" id="basic-nav-dropdown">
-                <NavDropdown.Item as={Link} to={"/search"}>
-                  Horror
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to={"/search"}>
-                  Historical Fiction
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to={"/search"}>
-                  Comic Book
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to={"/search"}>
-                  Action and Adventure.
-                </NavDropdown.Item>
-              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>
